@@ -1,0 +1,10 @@
+.feed-header {
+  background-image: url("https://www.trine.edu/esports/images/leagueoflegends_header.jpg");
+  background-size: 100% 100%;
+  height: 200px;
+}
+
+#league-banner {
+  height: 300px;
+  width: 100%;
+}
