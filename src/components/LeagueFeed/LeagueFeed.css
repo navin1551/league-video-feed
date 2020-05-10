@@ -9,6 +9,9 @@
 
 #title-span {
   padding-left: 12px;
+  font-style: italic;
+  padding-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .likes-views-area {
@@ -16,6 +19,26 @@
   display: flex;
 }
 
-#views {
+#thumbs-up-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+#views-icon {
+  width: 30px;
+  height: 30px;
   margin-left: 10px;
+  margin-right: 5px;
+}
+
+.likes-area,
+.views-area {
+  display: flex;
+  align-items: center;
+}
+
+#views,
+#likes {
+  font-size: 12px;
 }

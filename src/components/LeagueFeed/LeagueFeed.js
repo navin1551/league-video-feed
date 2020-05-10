@@ -4,13 +4,15 @@ import MedalPlayer from "medal-video-player";
 
 import "./LeagueFeed.css";
 
+import ThumbsUpLike from "../../assets/like.png";
+import Views from "../../assets/views.png";
+
 class LeagueFeed extends React.Component {
   render() {
-    console.log(this.props.league.contentObjects);
     const leagueVideos = this.props.data.map((video) => (
       <div className="medal-player-card" key={video.contentId}>
         <div className="title-area">
-          <p id="title-span">{video.contentTitle}</p>
+          <p id="title-span">-{video.contentTitle}</p>
         </div>
         <div>
           <MedalPlayer
@@ -18,18 +20,24 @@ class LeagueFeed extends React.Component {
             game=""
             user=""
             videoOpts={{
-              autoplay: true, // should the video autoplay?
-              loop: true, // should the video loop?
-              muted: true, // is the video muted by default?
-              controls: true, // are the video controls enabled?
-              embedded: true, // is this an embedded player? should we include all branding components and enable player.js events?
-              retry: true, // if the video fails to load, for whatever reason, retry video.play() up to 10 times
+              autoplay: true,
+              loop: true,
+              muted: true,
+              controls: true,
+              embedded: true,
+              retry: true,
             }}
           />
         </div>
         <div className="likes-views-area">
-          <p id="likes">Likes: {video.likes}</p>
-          <p id="views">Views: {video.views}</p>
+          <div className="likes-area">
+            <img src={ThumbsUpLike} alt="thumbs up icon" id="thumbs-up-icon" />
+            <p id="likes">{video.likes}</p>
+          </div>
+          <div className="views-area">
+            <img src={Views} alt="views eye icon" id="views-icon" />
+            <p id="views">{video.views}</p>
+          </div>
         </div>
       </div>
     ));

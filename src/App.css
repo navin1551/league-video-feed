@@ -5,5 +5,7 @@ body {
 }
 
 .app {
-  background-color: #868282;
+  /* background-color: #868282; */
+  background-image: url("https://wallpapercart.com/wp-content/uploads/2019/09/league-of-legends-background-wallpapers-windows-8.jpg");
+  background-attachment: fixed;
 }
