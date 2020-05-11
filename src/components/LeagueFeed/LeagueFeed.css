@@ -42,3 +42,89 @@
 #likes {
   font-size: 12px;
 }
+
+.videos-area {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .medal-player-card {
+    width: 500px;
+  }
+
+  .videos-area {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .medal-player-card {
+    width: 600px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .medal-player-card {
+    width: 700px;
+  }
+
+  #title-span {
+    font-size: 20px;
+    padding-left: 30px;
+  }
+
+  #thumbs-up-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+  }
+
+  #views-icon {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+
+  #views,
+  #likes {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .medal-player-card {
+    width: 1500px;
+  }
+
+  #title-span {
+    font-size: 40px;
+    padding-left: 30px;
+  }
+
+  .likes-views-area {
+    padding-left: 30px;
+    display: flex;
+    height: 100px;
+  }
+
+  #thumbs-up-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+  }
+
+  #views-icon {
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+
+  #views,
+  #likes {
+    font-size: 30px;
+  }
+}
