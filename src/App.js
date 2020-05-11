@@ -15,7 +15,7 @@ class App extends React.Component {
   };
 
   componentDidMount() {
-    fetch("https://developers.medal.tv/v1/trending?categoryId=62&limit=5", {
+    fetch("https://developers.medal.tv/v1/trending?categoryId=41&limit=25", {
       method: "GET",
       headers: {
         authorization: "pub_uCgPJzgypOYQc7WeseXiKrr3xiVQTPHY",

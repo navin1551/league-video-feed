@@ -17,8 +17,8 @@ class LeagueFeed extends React.Component {
         <div>
           <MedalPlayer
             content={video}
-            game=""
-            user=""
+            game={""}
+            user={""}
             videoOpts={{
               autoplay: true,
               loop: true,

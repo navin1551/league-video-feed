@@ -4,7 +4,7 @@
   margin-right: auto;
   background-color: #a9a9a9;
   margin-top: 75px;
-  box-shadow: 1px 4px 20px black;
+  box-shadow: 1px 4px 20px #112040;
 }
 
 #title-span {
@@ -61,13 +61,13 @@
 
 @media screen and (min-width: 1024px) {
   .medal-player-card {
-    width: 600px;
+    width: 640px;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .medal-player-card {
-    width: 700px;
+    width: 780px;
   }
 
   #title-span {
