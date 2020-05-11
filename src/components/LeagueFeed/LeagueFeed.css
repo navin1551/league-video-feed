@@ -2,16 +2,16 @@
   width: 280px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #a9a9a9;
+  background-color: #636569;
   margin-top: 75px;
-  box-shadow: 1px 4px 20px #112040;
+  box-shadow: 1px 4px 20px black;
 }
 
 #title-span {
   padding-left: 12px;
   font-style: italic;
   padding-top: 10px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
 
 .likes-views-area {
@@ -76,21 +76,21 @@
   }
 
   #thumbs-up-icon {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     margin-right: 5px;
   }
 
   #views-icon {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     margin-left: 10px;
     margin-right: 5px;
   }
 
   #views,
   #likes {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 

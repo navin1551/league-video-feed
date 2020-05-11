@@ -5,7 +5,7 @@ import "./LeagueTitle.css";
 const LeagueTitle = () => {
   return (
     <div className="league-title-area">
-      <h2 className="league-title">Today's Trending LoL Videos</h2>
+      <h2 className="league-title">Trending LoL Videos</h2>
     </div>
   );
 };
